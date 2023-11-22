@@ -1,2 +1,5 @@
 ./venv
 .\venv
+venv/
+static/files/
+static\files/
