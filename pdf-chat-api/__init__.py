@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 app.config['UPLOAD_FOLDER'] = 'static/files'
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "dummy"
 
 @app.route('/')
 def hello_world():
