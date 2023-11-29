@@ -16,7 +16,7 @@ from langchain.embeddings.huggingface import HuggingFaceEmbeddings
 load_dotenv()
 
 # os.environ["OPENAI_API_KEY"] = os.environ.get("OPENAI_API_KEY")
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "sk-<your key here>"
 
 def main():
     st.header("PDF Chat API")
